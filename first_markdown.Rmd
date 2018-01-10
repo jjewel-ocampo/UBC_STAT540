@@ -1,8 +1,8 @@
 ---
 title: "First Markdown File"
 author: "Jewel Ocampo"
-date: "January 9, 2018"
-output: html_document
+date: "`r format(Sys.time(), '%d %B, %Y')`"
+output: github_document
 ---
 
 ```{r setup, include=FALSE}
@@ -28,3 +28,23 @@ plot(pressure)
 ```
 
 Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.
+
+
+
+
+
+
+## A little bit about me 
+
+(#keep in mind that spacing between the list item and the asterisk matters)
+
+### Things I like
+* Food
+    * cooking food 
+    * eating food
+
+[This is the link to my GitHub Account](https://github.com/jjewel-ocampo)
+
+![#2meirl4meirl](https://imgs.xkcd.com/comics/honest.png)
+
+
